@@ -1,8 +1,6 @@
 ## Ethereum Dapp for Tracking Items through Supply Chain(Udacity)
 
-#### In this dapp, there are 4 roles: farmer, distriutor, retailer and consumer. Here the farmer harvests, processes, packs and sells coffee beans to distributor.
-#### The distributor buys and ships them to retailer. Finally, retailer receives them and consumer purchases the coffee beans. 
-#### Here roles contract in accesscontrol is used to add, remove role's access to contracts.(FarmerRole.sol, DistributorRole.sol, RetailerRole.sol, ConsumerRole.sol)
+#### In this dapp, there are 4 roles: farmer, distriutor, retailer and consumer. Here the farmer harvests, processes, packs and sells coffee beans to distributor.The distributor buys and ships them to retailer. Finally, retailer receives them and consumer purchases the coffee beans. Here roles contract in accesscontrol is used to add, remove role's access to contracts.(FarmerRole.sol, DistributorRole.sol, RetailerRole.sol, ConsumerRole.sol)
 
 #### Activity Diagram
 
@@ -22,7 +20,7 @@
 
 #### For this Dapp, we need the following
 
-#### Run command npm install -g truffle to install Truffle
+    To install truffle run command: npm install -g truffle 
 
 #### Truffle version:Truffle v5.4.18, Solidity v0.5.16, Node v14.17.5 and Web3.js v1.5.3
 
@@ -30,11 +28,13 @@
 
 #### Clone the repository and run cd project-6
 
-#### Run commands npm init and npm install
+    Run commands: npm init and npm install
 
-#### Run npm install web3 and npm install --save truffle-hdwallet-provider@1.0.17
+    Run npm install web3 and npm install --save truffle-hdwallet-provider@1.0.17
 
-#### Launch ganache : ganache-cli -m "spirit supply whale amount human item harsh scare congress discover talent hamster" 
+#### Launch ganache :
+
+    ganache-cli -m "spirit supply whale amount human item harsh scare congress discover talent hamster" 
 
 #### Your terminal should look something like this:
 
@@ -42,13 +42,13 @@
 
 #### In a separate window run truffle compile and truffle migrate
 
-#### Run truffle test
+    Run command: truffle test
 
 ![truffle test](Uml/truffle-test.png)
 
 #### Make sure metamask is enabled and set rinkeby network
 
-#### Run truffle migrate --reset --network rinkeby
+    Run command: truffle migrate --reset --network rinkeby
 
 ![truffle test](Uml/truffle-rinkeby1.png)
 
@@ -58,7 +58,9 @@
 
 ![truffle test](Uml/truffle-rinkeby4.png)
 
-#### In a separate window run: npm run dev
+#### In a separate window run:
+ 
+    npm run dev
 
 ![truffle test](Uml/Deploy.png)
 

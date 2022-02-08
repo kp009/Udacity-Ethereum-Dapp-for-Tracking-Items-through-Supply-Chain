@@ -18,7 +18,7 @@
 
 ![truffle test](Uml/Classdiagram.png)
 
-#### For this Dapp, we need the following
+#### Run the Dapp
 1. Truffle version used in this project:Truffle v5.4.18, Solidity v0.5.16, Node v14.17.5 and Web3.js v1.5.3. And to install Truffle run command
   ```bash
     npm install -g truffle 
@@ -68,7 +68,8 @@
  ```
 ![truffle test](Uml/Deploy.png)
 
-9. Front end Transaction history
+9. Frontend Transaction history
+
 ![truffle test](Uml/TransactionHistory.png)
 
 #### TransactionID and Contract Address

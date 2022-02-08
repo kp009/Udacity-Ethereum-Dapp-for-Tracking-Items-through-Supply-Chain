@@ -19,37 +19,40 @@
 ![truffle test](Uml/Classdiagram.png)
 
 #### For this Dapp, we need the following
+1. Truffle version used in this project:Truffle v5.4.18, Solidity v0.5.16, Node v14.17.5 and Web3.js v1.5.3. And to install Truffle run command
+  ```bash
+    npm install -g truffle 
+  ```
+2. Make sure you have Infura account, MetaMask installed, Ganache cli installed and ether in Rinkeby account
 
-    To install truffle run command: npm install -g truffle 
-
-#### Truffle version:Truffle v5.4.18, Solidity v0.5.16, Node v14.17.5 and Web3.js v1.5.3
-
-#### Make sure you have Infura account, MetaMask installed, Ganache cli installed and ether in rinkeby account
-
-#### Clone the repository and run cd project-6
-
-    Run commands: npm init and npm install
-
-    Run npm install web3 and npm install --save truffle-hdwallet-provider@1.0.17
-
-#### Launch ganache :
-
+3. Clone the repository and run the following
+ ```bash
+    cd project-6
+    npm init and npm install
+    npm install web3 
+    npm install --save truffle-hdwallet-provider@1.0.17
+ ```
+4. Launch ganache :
+ ```bash
     ganache-cli -m "spirit supply whale amount human item harsh scare congress discover talent hamster" 
-
-#### Your terminal should look something like this:
+ ```
+5. Your terminal should look something like this:
 
 ![truffle test](Uml/ganache-cli.png)
 
-#### In a separate window run truffle compile and truffle migrate
-
-    Run command: truffle test
+6. In a separate window run Truffle commands
+ ```bash
+    truffle compile
+    truffle migrate
+    truffle test
+ ```   
 
 ![truffle test](Uml/truffle-test.png)
 
-#### Make sure metamask is enabled and set rinkeby network
-
-    Run command: truffle migrate --reset --network rinkeby
-
+7. Make sure Metamask is enabled, set Rinkeby network and set infurakey to your Infura Rinkeby projectId
+  ```bash
+    truffle migrate --reset --network rinkeby
+  ```
 ![truffle test](Uml/truffle-rinkeby1.png)
 
 ![truffle test](Uml/truffle-rinkeby2.png)
@@ -58,13 +61,14 @@
 
 ![truffle test](Uml/truffle-rinkeby4.png)
 
-#### In a separate window run:
- 
+8. To run the Frontend:
+ ```bash
+    cd app
     npm run dev
-
+ ```
 ![truffle test](Uml/Deploy.png)
 
-#### Front end Transaction history
+9. Front end Transaction history
 ![truffle test](Uml/TransactionHistory.png)
 
 #### TransactionID and Contract Address
